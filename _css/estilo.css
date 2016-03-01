@@ -57,9 +57,23 @@ nav#menu li {
 	display: inline-block; /* alinha os itens */
 	background-color: #dddddd;
 	padding: 10px; /* espaço interno */
-	margin: 2px /* espaço externo */
+	margin: 2px; /* espaço externo */
+	transition: background-color 1s; /* tempo de transição da cor de fundo */
+}
+
+nav#menu li:hover {
+	background-color: #606060;
 }
 
 nav#menu h1{
 	display: none;
+}
+
+nav#menu a{
+	color: #000000;
+	text-decoration: none;
+}
+
+nav#menu a:hover {
+	color: #ffffff;
 }
